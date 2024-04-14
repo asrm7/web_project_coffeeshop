@@ -247,15 +247,15 @@
   border-radius: 4px;
   height: 60px;
 }
-.reservation_start {
+.reservation__label_start {
   align-self: flex-start;
   /* margin-left: 592px; */
 }
-.reservation_check-align {
+.reservation__item_check-align {
   border-radius: 2px;
   height: 20px;
   width: 20px;
   margin-right: 12px;
 }
-.reservation_check {
+.reservation__label_check {
 }
