@@ -212,6 +212,8 @@
   margin-left: auto;
   margin-right: auto;
 }
+.reservation__form_mod {
+}
 .reservation__input-container {
   display: flex;
   flex-direction: column;
