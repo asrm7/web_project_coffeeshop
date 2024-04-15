@@ -72,6 +72,9 @@
   border-radius: 4px;
   height: 60px;
 }
+.reservation__button:hover {
+  opacity: 70%;
+}
 .reservation__label_start {
   align-self: flex-start;
   /* margin-left: 592px; */
