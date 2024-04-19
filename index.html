@@ -103,7 +103,7 @@
             Confira algumas receitas que coletamos para seu lanchinho caseiro:
           </h3>
 
-          <section class="recipes__videos" id="recipes__videos">
+          <div class="recipes__videos" id="recipes__videos">
             <div class="recipes__video-item">
               <iframe
                 class="recipes__iframe"
@@ -136,7 +136,7 @@
                 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;~15 min
               </p>
             </div>
-          </section>
+          </div>
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reservar uma mesa</h2>
@@ -169,6 +169,7 @@
                 id="content-width"
                 name="content-width"
                 placeholder="1-8"
+                required
               />
 
               <label
@@ -181,6 +182,7 @@
                 class="reservation__item"
                 id="pub-date"
                 name="pub-date"
+                required
               />
 
               <label
@@ -194,6 +196,7 @@
                 id="email"
                 name="email"
                 placeholder="email@email.com"
+                required
               />
 
               <button type="submit" class="reservation__button">
@@ -209,6 +212,7 @@
                   id="bold-heading"
                   class="reservation__item reservation__item_check-align"
                   value="bold-heading"
+                  required
                 />Eu concordo com os termos de uso</label
               >
             </fieldset>
